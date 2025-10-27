@@ -1,0 +1,139 @@
+body{
+    background: #0b2632;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navber{
+    background: #0b2632;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 98%;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bars{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navber .Logo{
+    padding-left: 120px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.navber ul{
+    display: flex;
+}
+
+.navber ul li{
+    list-style: none;
+    margin-left: 35px;
+}
+.navber ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.navber ul li:hover a{
+    color: #00ff66;
+    animation-duration: .5s;
+}
+
+h2 {
+    font-size: 50px;
+}
+h1 {
+    font-size: 30px
+}
+
+.Homee{
+    color: #00ff66;
+}
+
+.he {
+    background: #00ff66;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.qr_bg{
+    background: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.name {
+    font-size: 50px;
+    font-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 60px 9% 0;
+    padding-bottom: 15px;
+    text-decoration: none; 
+}
+
+li {
+    text-decoration: none;
+}
+
+.num{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.kl{
+    display: flex;
+    justify-content: center;
+}
+
+.space{
+    color: #0b2632;
+    height: 5vh;
+    width: 20px;
+}
+
+.nam{
+    background: #00ff66;
+    justify-items: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 40px;
+}
+
+.fbname{
+    font-size: 50px;
+    font-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 60px 9% 0;
+    padding-bottom: 15px;
+    padding-left: -5px;
+}
+
+.Me {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
